@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [ { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -31.33, "left": -116, "attrs": {} } ],
+  "connections": [ [ "esp:TX0", "$serialMonitor:RX", "", [] ], [ "esp:RX0", "$serialMonitor:TX", "", [] ] ]
+}
